@@ -5,12 +5,12 @@ document.getElementById("login-submit").addEventListener('click', function () {
     const passwordField = document.getElementById('user-password');
     const userPassword = passwordField.value;
     //console.log(userPassword);
-    if (userEmail == "jack@gmail.com" && userPassword == 'secret') {
+    if (userEmail == "imrul-emon@mail.com" && userPassword == 'MoneyExchange') {
         window.location.href = 'banking.html';
         emailField = '';
         passwordField = '';
     }
     else {
-        alert("wrong password");
+        alert("Wrong Password");
     }
 })
